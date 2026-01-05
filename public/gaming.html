@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gaming Zone | 8Bit Gaming Cafe</title>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Press Start 2P', cursive;
+      background-color: #111;
+      color: #fff;
+    }
+    header {
+      background-color: #0f0f0f;
+      padding: 1.5rem;
+      text-align: center;
+    }
+    header h1 {
+      color: #00ff00;
+    }
+    nav {
+      margin-top: 1rem;
+    }
+    nav a {
+      margin: 0 1rem;
+      color: #ff0040;
+      text-decoration: none;
+    }
+    nav a:hover {
+      color: #00ffff;
+    }
+    .gaming-section {
+      padding: 3rem 1rem;
+      text-align: center;
+    }
+    .gaming-section h2 {
+      color: #00ff00;
+      margin-bottom: 2rem;
+    }
+    .gaming-content {
+      background: #1f1f1f;
+      max-width: 700px;
+      margin: auto;
+      padding: 2rem;
+      border-radius: 10px;
+      border: 2px dashed #444;
+    }
+    .gaming-content p {
+      margin: 1rem 0;
+    }
+    .btn {
+      margin-top: 1.5rem;
+      padding: 0.6rem 1.4rem;
+      background-color: #ff0040;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+      font-size: 0.75rem;
+      transition: transform 0.2s ease-in-out;
+    }
+    .btn:hover {
+      background-color: #ff6600;
+      transform: scale(1.1);
+    }
+    footer {
+      background-color: #000;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.7rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>8Bit Gaming Cafe</h1>
+    <nav>
+      <a href="../index.html">Home</a>
+      <a href="./gallery.html">Gallery</a>
+      <a href="./gaming.html">Gaming Zone</a>
+      <a href="./menu.html">Menu</a>
+      <a href="./contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section class="gaming-section">
+    <h2>🎮 Gaming Zone</h2>
+    <div class="gaming-content">
+      <p><strong>Bring your squad or chill solo!</strong> We've got space, snacks,cozy chairs, and a collection of the hottest multiplayer and solo titles.</p>
+      <p><strong>Games Available:</strong> FC 25, God of War: Ragnarok, GTA5, Mortal Kombat, 2K25, MotoGP 24 & more</p>
+      <p><strong>Want to reserve a console?</strong></p>
+      <button class="btn" onclick="openWhatsApp()">Book Now via WhatsApp</button>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 8Bit Gaming Cafe | Crafted with ❤️ by Nabeel</p>
+  </footer>
+
+  <script>
+    function openWhatsApp() {
+      window.open("https://wa.me/918956022256", "_blank");
+    }
+  </script>
+</body>
+</html>

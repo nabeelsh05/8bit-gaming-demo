@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | 8Bit Gaming Cafe</title>
+  <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Press Start 2P', cursive;
+      background-color: #111;
+      color: #fff;
+    }
+    header {
+      background-color: #0f0f0f;
+      padding: 1.5rem;
+      text-align: center;
+    }
+    header h1 {
+      color: #00ff00;
+    }
+    nav {
+      margin-top: 1rem;
+    }
+    nav a {
+      margin: 0 1rem;
+      color: #ff0040;
+      text-decoration: none;
+    }
+    nav a:hover {
+      color: #00ffff;
+    }
+    .contact-section {
+      padding: 3rem 1rem;
+      text-align: center;
+    }
+    .contact-section h2 {
+      margin-bottom: 2rem;
+      color: #00ff00;
+    }
+    .contact-info {
+      background: #1f1f1f;
+      max-width: 600px;
+      margin: auto;
+      padding: 2rem;
+      border-radius: 10px;
+      border: 2px dashed #444;
+    }
+    .contact-info p {
+      margin: 1rem 0;
+    }
+    .contact-info a {
+      color: #00ffff;
+      text-decoration: none;
+    }
+    .contact-info a:hover {
+      text-decoration: underline;
+    }
+    
+    .btn {
+      margin-top: 1.5rem;
+      padding: 0.6rem 1.4rem;
+      background-color: #ff0040;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+      font-size: 0.75rem;
+      transition: transform 0.2s ease-in-out;
+    }
+    .btn:hover {
+      background-color: #ff6600;
+      transform: scale(1.1);
+    }
+    footer {
+      background-color: #000;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.7rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>8Bit Bistro</h1>
+    <nav>
+      <a href="../index.html">Home</a>
+      <a href="./gallery.html">Gallery</a>
+      <a href="./gaming.html">Gaming Zone</a>
+      <a href="./menu.html">Menu</a>
+      <a href="./contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <section class="contact-section">
+    <h2>📞 Contact Us</h2>
+    <div class="contact-info">
+      <p><strong>Address:</strong> <br><br> 8Bit Gaming Cafe, Pune, IN</p>
+      <p><strong>Phone:</strong> <br><br> <a href="tel:+918956022256">+91 89560 22256</a></p>
+      <p><strong>Email:</strong> <br><br> <a href="mailto:hello@8bitgaming.com">hello@8bitgaming.com</a></p>
+      <p><strong>WhatsApp Booking:</strong> <br> <button class="btn" onclick="openWhatsApp()">Contact us on WhatsApp</button></p>
+      <p><strong>Hours:</strong> <br><br> Mon–Sun: 10am – 11pm</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 8Bit Gaming Cafe | Crafted with ❤️ by Nabeel</p>
+  </footer>
+
+  <script>
+    function openWhatsApp() {
+      window.open("https://wa.me/918956022256", "_blank");
+    }
+  </script>
+</body>
+</html>
